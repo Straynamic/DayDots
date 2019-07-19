@@ -1,0 +1,71 @@
+﻿body {
+    background-image: linear-gradient(90deg, #b2b2c6, #c2c2c4);
+}
+
+tc img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    left: 90px;
+    top: -45px;
+}
+
+tr tc:nth-child(2) {
+    display: block;
+    position: relative;
+    top: 35px;
+    left: 90px;
+    font-size: 24px;
+    text-align: center;
+    z-index: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+tr tc:first-child {
+    display: block;
+    position: relative;
+    top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    right: 25px;
+}
+
+
+button {
+    float: left;
+    display: block;
+    position: relative;
+    left: 50%;
+    height: 50px;
+    width: 100px;
+}
+
+form {
+    float: left;
+    display: block;
+    position: relative;
+    left: 500px;
+    top: 150px;
+    height: 50px;
+    width: 100px;
+}
+
+#logo {
+    height: 125px;
+    width: 200px;
+}
+
+
+@media print {
+    button {
+        display: none;
+    }
+    #logo {
+        display: none;
+    }
+}
+
